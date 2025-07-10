@@ -130,7 +130,7 @@ class Ui_Dialog(object):
         QtCore.QObject.connect(self.pushButton_m3, QtCore.SIGNAL("pressed()"), self.massImput)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
     def retranslateUi(self, Dialog):
-        Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Gland packing Assy", None))
+        Dialog.setWindowTitle(QtGui.QApplication.translate("Dialog", "Screw Conveyor Assy", None))
         
     def onImport(self):
         global spro1
